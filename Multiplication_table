@@ -1,0 +1,8 @@
+for i in range (1,13):
+	x=x.append(i)
+
+print(x)
+for j in range (1,13):
+	for i in x,
+		y[i]=x[i]*j
+	print(y)

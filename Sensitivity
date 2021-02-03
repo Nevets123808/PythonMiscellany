@@ -1,0 +1,17 @@
+#Define Functions
+def_rsquar(x,y,z)
+	return x**2+y**2+z**2
+
+#Set Parameters
+Cd = 15e-3
+Cl = 10e-3
+Cb = 5e-3
+
+#Position insensitve Calculations
+alpha = Cd/Cb
+beta = Cl/Cb
+
+B1 = ((Cb/2)**4)*(beta/6)*(alpha**3-1)
+B2 = ((Cb/2)**6)*(beta/120)*(9*(alpha**5-1)-20*(beta**2)*(alpha**3-1))
+B3 = ((Cb/2)**8)*(beta/336)*(15(alpha**7-1)-84*(beta**2)*(alpha**5-1)+56(beta**4)*(alpha**3-1))
+
